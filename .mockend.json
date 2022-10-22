@@ -2,9 +2,10 @@
   "Destination": {
     "name": { "regexp": "Packages [0-9]{3}" }  
   },
+  
   "Sender": {
     "name": { "regexp": "Packages [0-9]{3}" } ,
     "dni": { "regexp": "[0-9]{8}" } ,
     "phone": { "regexp": "[0-9]{9}" }
-  },
+  }
 }
