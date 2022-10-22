@@ -7,5 +7,17 @@
     "name": { "regexp": "Sender [0-9]{3}" } ,
     "dni": { "regexp": "[0-9]{8}" } ,
     "phone": { "regexp": "[0-9]{9}" }
+  },
+  
+    "Consignee": {
+    "name": { "regexp": "Sender [0-9]{3}" } ,
+    "dni": { "regexp": "[0-9]{8}" } ,
+    "phone": { "regexp": "[0-9]{9}" },
+     "address": { "regexp": "address [0-9]{9}" }
+  },
+  
+  "Document": {
+    "name": { "regexp": "Document [0-9]{3}" }  
   }
+
 }
